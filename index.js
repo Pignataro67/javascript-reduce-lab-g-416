@@ -33,13 +33,13 @@ const monologueLines = [
 //   return obj
 // }, {})
 const totalBatteries = batteryBatches.reduce((accumulator, currentValue) => {
-  return accumulator + currentValue
-}, 0)
+  return accumulator + currentValue;
+}, 0);
 
 const wordCountMap = monologueLines.reduce((obj, lines) => {
   if (!obj[lines.split(" ").length]){
-    obj[lines.split(" ").length] = 0 
+    obj[lines.split(" ").length] = 0; 
   }
-  obj[lines.split(" ").length]++
-  
-})
+  obj[lines.split(" ").length]++;
+  return obj;
+}, {} );
