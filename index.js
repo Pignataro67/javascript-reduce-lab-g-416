@@ -32,3 +32,6 @@ const monologueLines = [
 
 //   return obj
 // }, {})
+const totalBatteries = batteryBatches.reduce((accumulator, currentValue) => {
+  
+})
