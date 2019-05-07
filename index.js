@@ -40,4 +40,6 @@ const wordCountMap = monologueLines.reduce((obj, lines) => {
   if (!obj[lines.split(" ").length]){
     obj[lines.split(" ").length] = 0 
   }
+  obj[lines.split(" ").length]++
+  
 })
