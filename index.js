@@ -32,4 +32,3 @@ const wordCountMap = monologueLines.reduce( (obj, lines) => {
 
   return obj
 }, {})
-const
